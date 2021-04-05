@@ -33,7 +33,7 @@ if has('gui_running')
 endif
 
 " Set colorscheme
-colorscheme shades_of_purple
+colorscheme synthwave84
 
 " Key remaping
 imap kj <Esc>
@@ -42,14 +42,13 @@ imap jj <Esc>
 if has("gui_running")
   " GUI is running or is about to start.
   " Maximize gvim window.
-  set lines=35 columns=150
+  set lines=50 columns=150
 else
   " This is console Vim.
   if exists("+lines")
-    set lines=35
+    set lines=50
   endif
   if exists("+columns")
-    set columns=100
+    set columns=150
   endif
 endif
-
