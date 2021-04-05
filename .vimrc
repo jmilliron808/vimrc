@@ -19,6 +19,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'artanikin/vim-synthwave84'
 Plug 'Rigellute/shades-of-purple.vim'
 Plug 'vim-scripts/Windows-PowerShell-Syntax-Plugin'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 " Enable 24bit true color
